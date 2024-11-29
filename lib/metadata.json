@@ -1,0 +1,1052 @@
+{
+  "vaultName": "brocolleen",
+  "lastExport": 1732849120204,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "Excalidraw/Drawing 2024-11-29 10.44.42.excalidraw.md",
+    "SOUTION lab/JOURNAL/2024.11.06 journal.md",
+    "SOUTION lab/JOURNAL/2024.11.07 journal.md",
+    "SOUTION lab/JOURNAL/2024.11.08 journal.md",
+    "SOUTION lab/JOURNAL/2024.11.11 journal.md",
+    "SOUTION lab/JOURNAL/2024.11.13 journal.md",
+    "SOUTION lab/JOURNAL/2024.11.14 journal.md",
+    "SOUTION lab/JOURNAL/2024.11.15 journal.md",
+    "SOUTION lab/JOURNAL/2024.11.18 journal.md",
+    "SOUTION lab/JOURNAL/2024.11.19 journal.md",
+    "SOUTION lab/JOURNAL/2024.11.21 journal.md",
+    "SOUTION lab/JOURNAL/2024.11.25 journal.md",
+    "SOUTION lab/JOURNAL/2024.11.26 journal.md",
+    "SOUTION lab/JOURNAL/2024.11.27 journal.md",
+    "SOUTION lab/JOURNAL/2024.11.28 journal.md",
+    "SOUTION lab/S lab. day1.md",
+    "SOUTION lab/S lab. day2.md",
+    "SOUTION lab/S lab. day3.md",
+    "SOUTION lab/S lab. day4.md",
+    "SOUTION lab/S lab. day5.md",
+    "SOUTION lab/S lab. day6.md",
+    "SOUTION lab/S lab. day7.md",
+    "SOUTION lab/S lab. day8.md",
+    "SOUTION lab/S lab. day9.md",
+    "SOUTION lab/S lab. day10.md",
+    "SOUTION lab/S lab. day12.md",
+    "SOUTION lab/S lab. day13.md",
+    "SOUTION lab/S lab. day14.md",
+    "SOUTION lab/S lab. day15.md",
+    "templates/2024.11.29 journal.md",
+    "2023 S2 포트폴리오.md",
+    "2024 S1 포트폴리오.md",
+    "2024 S2 포트폴리오.md",
+    "2024-11-07.md",
+    "2024-11-29.md",
+    "2024.11.15.md",
+    "2024.S2 자료 기록.md",
+    "공간이전 기숙사 기획안.md",
+    "공간이전 기숙사 TF.md",
+    "대상자 인터뷰.md",
+    "디자인.md",
+    "리나, 리오 사진첩.md",
+    "무무스.md",
+    "무무스 day1.md",
+    "무무스 day2.md",
+    "무무스 day3.md",
+    "무제 파일.md",
+    "밥먹차.md",
+    "밥먹차 사진첩.md",
+    "밥먹차 활동예정.md",
+    "숲스토리 인터뷰.md",
+    "스크린샷 2024-11-06 12.40.49.png",
+    "스크린샷 2024-11-06 12.45.06.png",
+    "스크린샷 2024-11-06 12.45.06 1.png",
+    "스크린샷 2024-11-06 12.47.12.png",
+    "스크린샷 2024-11-06 12.48.24.png",
+    "스크린샷 2024-11-07 18.49.30.png",
+    "스크린샷 2024-11-07 18.50.23.png",
+    "스크린샷 2024-11-07 18.50.43.png",
+    "스크린샷 2024-11-07 18.51.02.png",
+    "스크린샷 2024-11-26 19.21.39.png",
+    "스크린샷 2024-11-26 20.00.38.png",
+    "스크린샷 2024-11-26 20.00.49.png",
+    "스크린샷 2024-11-26 20.01.01.png",
+    "스크린샷 2024-11-26 20.01.17.png",
+    "양서 파충류 자격증 준비.md",
+    "옵시디언 tip.md",
+    "원고 아이디어.md",
+    "추천 디자이너.md",
+    "퇴마사 김재중.md",
+    "퇴마사 김재중 아이디어 원고.md",
+    "퇴마사 김재중 story1.md",
+    "퇴마사 김재중 story2.md",
+    "파충류.md",
+    "프로덕트 세계관.png",
+    "프로덕트 세계관 1.png",
+    "daily template.md",
+    "EFY.md",
+    "EFY 오션 앱 (온라인 솔루션).md",
+    "EFY 옷장 idea (오프라인 솔루션).md",
+    "EFY IR피칭.md",
+    "image7.jpg",
+    "image7 1.jpg",
+    "index.md",
+    "MY Journal.md",
+    "novel.md",
+    "Pasted image 20241106122023.png",
+    "Pasted image 20241121114841.png",
+    "Pasted image 20241126192245.png",
+    "Pasted image 20241126194108.png",
+    "Pasted image 20241126200029.png",
+    "PT 디자인.md",
+    "S lab JOURNAL.md",
+    "S lab. day16.md",
+    "SOLUTION lab.md",
+    "T&C.md",
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/supported-plugins.css",
+    "lib/styles/main-styles.css"
+  ],
+  "mainDependencies": [
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/supported-plugins.css",
+    "lib/styles/main-styles.css"
+  ],
+  "fileInfo": {
+    "Excalidraw/Drawing 2024-11-29 10.44.42.excalidraw.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 4334,
+      "exportedPath": "excalidraw/drawing-2024-11-29-10.44.42.excalidraw.html",
+      "dependencies": []
+    },
+    "SOUTION lab/JOURNAL/2024.11.06 journal.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 551,
+      "exportedPath": "soution-lab/journal/2024.11.06-journal.html",
+      "dependencies": []
+    },
+    "SOUTION lab/JOURNAL/2024.11.07 journal.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 648,
+      "exportedPath": "soution-lab/journal/2024.11.07-journal.html",
+      "dependencies": []
+    },
+    "SOUTION lab/JOURNAL/2024.11.08 journal.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 538,
+      "exportedPath": "soution-lab/journal/2024.11.08-journal.html",
+      "dependencies": []
+    },
+    "SOUTION lab/JOURNAL/2024.11.11 journal.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 486,
+      "exportedPath": "soution-lab/journal/2024.11.11-journal.html",
+      "dependencies": []
+    },
+    "SOUTION lab/JOURNAL/2024.11.13 journal.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 282,
+      "exportedPath": "soution-lab/journal/2024.11.13-journal.html",
+      "dependencies": []
+    },
+    "SOUTION lab/JOURNAL/2024.11.14 journal.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 120,
+      "exportedPath": "soution-lab/journal/2024.11.14-journal.html",
+      "dependencies": []
+    },
+    "SOUTION lab/JOURNAL/2024.11.15 journal.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 361,
+      "exportedPath": "soution-lab/journal/2024.11.15-journal.html",
+      "dependencies": []
+    },
+    "SOUTION lab/JOURNAL/2024.11.18 journal.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 314,
+      "exportedPath": "soution-lab/journal/2024.11.18-journal.html",
+      "dependencies": []
+    },
+    "SOUTION lab/JOURNAL/2024.11.19 journal.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 424,
+      "exportedPath": "soution-lab/journal/2024.11.19-journal.html",
+      "dependencies": []
+    },
+    "SOUTION lab/JOURNAL/2024.11.21 journal.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 213,
+      "exportedPath": "soution-lab/journal/2024.11.21-journal.html",
+      "dependencies": []
+    },
+    "SOUTION lab/JOURNAL/2024.11.25 journal.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 405,
+      "exportedPath": "soution-lab/journal/2024.11.25-journal.html",
+      "dependencies": []
+    },
+    "SOUTION lab/JOURNAL/2024.11.26 journal.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 441,
+      "exportedPath": "soution-lab/journal/2024.11.26-journal.html",
+      "dependencies": []
+    },
+    "SOUTION lab/JOURNAL/2024.11.27 journal.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 230,
+      "exportedPath": "soution-lab/journal/2024.11.27-journal.html",
+      "dependencies": []
+    },
+    "SOUTION lab/JOURNAL/2024.11.28 journal.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 355,
+      "exportedPath": "soution-lab/journal/2024.11.28-journal.html",
+      "dependencies": []
+    },
+    "SOUTION lab/S lab. day1.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1631,
+      "exportedPath": "soution-lab/s-lab.-day1.html",
+      "dependencies": []
+    },
+    "SOUTION lab/S lab. day2.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1244,
+      "exportedPath": "soution-lab/s-lab.-day2.html",
+      "dependencies": []
+    },
+    "SOUTION lab/S lab. day3.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1923,
+      "exportedPath": "soution-lab/s-lab.-day3.html",
+      "dependencies": []
+    },
+    "SOUTION lab/S lab. day4.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 803,
+      "exportedPath": "soution-lab/s-lab.-day4.html",
+      "dependencies": []
+    },
+    "SOUTION lab/S lab. day5.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 772,
+      "exportedPath": "soution-lab/s-lab.-day5.html",
+      "dependencies": []
+    },
+    "SOUTION lab/S lab. day6.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 2148,
+      "exportedPath": "soution-lab/s-lab.-day6.html",
+      "dependencies": []
+    },
+    "SOUTION lab/S lab. day7.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 2418,
+      "exportedPath": "soution-lab/s-lab.-day7.html",
+      "dependencies": []
+    },
+    "SOUTION lab/S lab. day8.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 905,
+      "exportedPath": "soution-lab/s-lab.-day8.html",
+      "dependencies": []
+    },
+    "SOUTION lab/S lab. day9.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 8017,
+      "exportedPath": "soution-lab/s-lab.-day9.html",
+      "dependencies": []
+    },
+    "SOUTION lab/S lab. day10.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 18057,
+      "exportedPath": "soution-lab/s-lab.-day10.html",
+      "dependencies": []
+    },
+    "SOUTION lab/S lab. day12.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 989,
+      "exportedPath": "soution-lab/s-lab.-day12.html",
+      "dependencies": []
+    },
+    "SOUTION lab/S lab. day13.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 0,
+      "exportedPath": "soution-lab/s-lab.-day13.html",
+      "dependencies": []
+    },
+    "SOUTION lab/S lab. day14.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 39,
+      "exportedPath": "soution-lab/s-lab.-day14.html",
+      "dependencies": []
+    },
+    "SOUTION lab/S lab. day15.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1068,
+      "exportedPath": "soution-lab/s-lab.-day15.html",
+      "dependencies": []
+    },
+    "templates/2024.11.29 journal.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 63,
+      "exportedPath": "templates/2024.11.29-journal.html",
+      "dependencies": []
+    },
+    "2023 S2 포트폴리오.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 41,
+      "exportedPath": "2023-s2-포트폴리오.html",
+      "dependencies": [
+        "스크린샷-2024-11-06-12.48.24.png"
+      ]
+    },
+    "2024 S1 포트폴리오.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 59,
+      "exportedPath": "2024-s1-포트폴리오.html",
+      "dependencies": [
+        "스크린샷-2024-11-06-12.47.12.png"
+      ]
+    },
+    "2024 S2 포트폴리오.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 61,
+      "exportedPath": "2024-s2-포트폴리오.html",
+      "dependencies": [
+        "스크린샷-2024-11-06-12.45.06-1.png"
+      ]
+    },
+    "2024-11-07.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 0,
+      "exportedPath": "2024-11-07.html",
+      "dependencies": []
+    },
+    "2024-11-29.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 0,
+      "exportedPath": "2024-11-29.html",
+      "dependencies": []
+    },
+    "2024.11.15.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 5321,
+      "exportedPath": "2024.11.15.html",
+      "dependencies": []
+    },
+    "2024.S2 자료 기록.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 2043,
+      "exportedPath": "2024.s2-자료-기록.html",
+      "dependencies": [
+        "스크린샷-2024-11-06-12.40.49.png"
+      ]
+    },
+    "공간이전 기숙사 기획안.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 3931,
+      "exportedPath": "공간이전-기숙사-기획안.html",
+      "dependencies": [
+        "스크린샷-2024-11-07-18.49.30.png",
+        "스크린샷-2024-11-07-18.50.23.png",
+        "스크린샷-2024-11-07-18.50.43.png",
+        "스크린샷-2024-11-07-18.51.02.png"
+      ]
+    },
+    "공간이전 기숙사 TF.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 466,
+      "exportedPath": "공간이전-기숙사-tf.html",
+      "dependencies": []
+    },
+    "대상자 인터뷰.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 809,
+      "exportedPath": "대상자-인터뷰.html",
+      "dependencies": []
+    },
+    "디자인.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 41,
+      "exportedPath": "디자인.html",
+      "dependencies": []
+    },
+    "리나, 리오 사진첩.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 0,
+      "exportedPath": "리나,-리오-사진첩.html",
+      "dependencies": []
+    },
+    "무무스.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 57,
+      "exportedPath": "무무스.html",
+      "dependencies": []
+    },
+    "무무스 day1.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 666,
+      "exportedPath": "무무스-day1.html",
+      "dependencies": [
+        "프로덕트-세계관-1.png",
+        "image7-1.jpg"
+      ]
+    },
+    "무무스 day2.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 349,
+      "exportedPath": "무무스-day2.html",
+      "dependencies": []
+    },
+    "무무스 day3.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1191,
+      "exportedPath": "무무스-day3.html",
+      "dependencies": [
+        "스크린샷-2024-11-26-19.21.39.png",
+        "스크린샷-2024-11-26-20.00.38.png",
+        "pasted-image-20241126192245.png",
+        "스크린샷-2024-11-26-20.00.49.png",
+        "스크린샷-2024-11-26-20.01.01.png",
+        "스크린샷-2024-11-26-20.01.17.png",
+        "pasted-image-20241126194108.png"
+      ]
+    },
+    "무제 파일.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 0,
+      "exportedPath": "무제-파일.html",
+      "dependencies": []
+    },
+    "밥먹차.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 51,
+      "exportedPath": "밥먹차.html",
+      "dependencies": []
+    },
+    "밥먹차 사진첩.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 0,
+      "exportedPath": "밥먹차-사진첩.html",
+      "dependencies": []
+    },
+    "밥먹차 활동예정.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 0,
+      "exportedPath": "밥먹차-활동예정.html",
+      "dependencies": []
+    },
+    "숲스토리 인터뷰.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 2238,
+      "exportedPath": "숲스토리-인터뷰.html",
+      "dependencies": []
+    },
+    "스크린샷 2024-11-06 12.40.49.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 145038,
+      "exportedPath": "스크린샷-2024-11-06-12.40.49.png",
+      "dependencies": []
+    },
+    "스크린샷 2024-11-06 12.45.06.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 536469,
+      "exportedPath": "스크린샷-2024-11-06-12.45.06.png",
+      "dependencies": []
+    },
+    "스크린샷 2024-11-06 12.45.06 1.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 536469,
+      "exportedPath": "스크린샷-2024-11-06-12.45.06-1.png",
+      "dependencies": []
+    },
+    "스크린샷 2024-11-06 12.47.12.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 337603,
+      "exportedPath": "스크린샷-2024-11-06-12.47.12.png",
+      "dependencies": []
+    },
+    "스크린샷 2024-11-06 12.48.24.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 372331,
+      "exportedPath": "스크린샷-2024-11-06-12.48.24.png",
+      "dependencies": []
+    },
+    "스크린샷 2024-11-07 18.49.30.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 758665,
+      "exportedPath": "스크린샷-2024-11-07-18.49.30.png",
+      "dependencies": []
+    },
+    "스크린샷 2024-11-07 18.50.23.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 756859,
+      "exportedPath": "스크린샷-2024-11-07-18.50.23.png",
+      "dependencies": []
+    },
+    "스크린샷 2024-11-07 18.50.43.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 668774,
+      "exportedPath": "스크린샷-2024-11-07-18.50.43.png",
+      "dependencies": []
+    },
+    "스크린샷 2024-11-07 18.51.02.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1016280,
+      "exportedPath": "스크린샷-2024-11-07-18.51.02.png",
+      "dependencies": []
+    },
+    "스크린샷 2024-11-26 19.21.39.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 227799,
+      "exportedPath": "스크린샷-2024-11-26-19.21.39.png",
+      "dependencies": []
+    },
+    "스크린샷 2024-11-26 20.00.38.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 93826,
+      "exportedPath": "스크린샷-2024-11-26-20.00.38.png",
+      "dependencies": []
+    },
+    "스크린샷 2024-11-26 20.00.49.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 65917,
+      "exportedPath": "스크린샷-2024-11-26-20.00.49.png",
+      "dependencies": []
+    },
+    "스크린샷 2024-11-26 20.01.01.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 236396,
+      "exportedPath": "스크린샷-2024-11-26-20.01.01.png",
+      "dependencies": []
+    },
+    "스크린샷 2024-11-26 20.01.17.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1184299,
+      "exportedPath": "스크린샷-2024-11-26-20.01.17.png",
+      "dependencies": []
+    },
+    "양서 파충류 자격증 준비.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1598,
+      "exportedPath": "양서-파충류-자격증-준비.html",
+      "dependencies": []
+    },
+    "옵시디언 tip.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 0,
+      "exportedPath": "옵시디언-tip.html",
+      "dependencies": []
+    },
+    "원고 아이디어.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 626,
+      "exportedPath": "원고-아이디어.html",
+      "dependencies": []
+    },
+    "추천 디자이너.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 70,
+      "exportedPath": "추천-디자이너.html",
+      "dependencies": []
+    },
+    "퇴마사 김재중.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 75,
+      "exportedPath": "퇴마사-김재중.html",
+      "dependencies": []
+    },
+    "퇴마사 김재중 아이디어 원고.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 4608,
+      "exportedPath": "퇴마사-김재중-아이디어-원고.html",
+      "dependencies": []
+    },
+    "퇴마사 김재중 story1.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 35021,
+      "exportedPath": "퇴마사-김재중-story1.html",
+      "dependencies": []
+    },
+    "퇴마사 김재중 story2.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 0,
+      "exportedPath": "퇴마사-김재중-story2.html",
+      "dependencies": []
+    },
+    "파충류.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 68,
+      "exportedPath": "파충류.html",
+      "dependencies": []
+    },
+    "프로덕트 세계관.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1771066,
+      "exportedPath": "프로덕트-세계관.png",
+      "dependencies": []
+    },
+    "프로덕트 세계관 1.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1771066,
+      "exportedPath": "프로덕트-세계관-1.png",
+      "dependencies": []
+    },
+    "daily template.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 22,
+      "exportedPath": "daily-template.html",
+      "dependencies": []
+    },
+    "EFY.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 275,
+      "exportedPath": "efy.html",
+      "dependencies": []
+    },
+    "EFY 오션 앱 (온라인 솔루션).md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1223,
+      "exportedPath": "efy-오션-앱-(온라인-솔루션).html",
+      "dependencies": [
+        "pasted-image-20241106122023.png"
+      ]
+    },
+    "EFY 옷장 idea (오프라인 솔루션).md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 465,
+      "exportedPath": "efy-옷장-idea-(오프라인-솔루션).html",
+      "dependencies": []
+    },
+    "EFY IR피칭.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1387,
+      "exportedPath": "efy-ir피칭.html",
+      "dependencies": []
+    },
+    "image7.jpg": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 170099,
+      "exportedPath": "image7.jpg",
+      "dependencies": []
+    },
+    "image7 1.jpg": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 170099,
+      "exportedPath": "image7-1.jpg",
+      "dependencies": []
+    },
+    "index.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 20,
+      "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "MY Journal.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 15,
+      "exportedPath": "my-journal.html",
+      "dependencies": []
+    },
+    "novel.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 48,
+      "exportedPath": "novel.html",
+      "dependencies": []
+    },
+    "Pasted image 20241106122023.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 720005,
+      "exportedPath": "pasted-image-20241106122023.png",
+      "dependencies": []
+    },
+    "Pasted image 20241121114841.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1769411,
+      "exportedPath": "pasted-image-20241121114841.png",
+      "dependencies": []
+    },
+    "Pasted image 20241126192245.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 130568,
+      "exportedPath": "pasted-image-20241126192245.png",
+      "dependencies": []
+    },
+    "Pasted image 20241126194108.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 112438,
+      "exportedPath": "pasted-image-20241126194108.png",
+      "dependencies": []
+    },
+    "Pasted image 20241126200029.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 11732,
+      "exportedPath": "pasted-image-20241126200029.png",
+      "dependencies": []
+    },
+    "PT 디자인.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1742,
+      "exportedPath": "pt-디자인.html",
+      "dependencies": []
+    },
+    "S lab JOURNAL.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 322,
+      "exportedPath": "s-lab-journal.html",
+      "dependencies": []
+    },
+    "S lab. day16.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 100,
+      "exportedPath": "s-lab.-day16.html",
+      "dependencies": []
+    },
+    "SOLUTION lab.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 287,
+      "exportedPath": "solution-lab.html",
+      "dependencies": []
+    },
+    "T&C.md": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 14,
+      "exportedPath": "t&c.html",
+      "dependencies": []
+    },
+    "스크린샷-2024-11-06-12.48.24.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 372331,
+      "exportedPath": "스크린샷-2024-11-06-12.48.24.png",
+      "dependencies": []
+    },
+    "스크린샷-2024-11-06-12.47.12.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 337603,
+      "exportedPath": "스크린샷-2024-11-06-12.47.12.png",
+      "dependencies": []
+    },
+    "스크린샷-2024-11-06-12.45.06-1.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 536469,
+      "exportedPath": "스크린샷-2024-11-06-12.45.06-1.png",
+      "dependencies": []
+    },
+    "스크린샷-2024-11-06-12.40.49.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 145038,
+      "exportedPath": "스크린샷-2024-11-06-12.40.49.png",
+      "dependencies": []
+    },
+    "스크린샷-2024-11-07-18.49.30.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 758665,
+      "exportedPath": "스크린샷-2024-11-07-18.49.30.png",
+      "dependencies": []
+    },
+    "스크린샷-2024-11-07-18.50.23.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 756859,
+      "exportedPath": "스크린샷-2024-11-07-18.50.23.png",
+      "dependencies": []
+    },
+    "스크린샷-2024-11-07-18.50.43.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 668774,
+      "exportedPath": "스크린샷-2024-11-07-18.50.43.png",
+      "dependencies": []
+    },
+    "스크린샷-2024-11-07-18.51.02.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1016280,
+      "exportedPath": "스크린샷-2024-11-07-18.51.02.png",
+      "dependencies": []
+    },
+    "프로덕트-세계관-1.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1771066,
+      "exportedPath": "프로덕트-세계관-1.png",
+      "dependencies": []
+    },
+    "image7-1.jpg": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 170099,
+      "exportedPath": "image7-1.jpg",
+      "dependencies": []
+    },
+    "스크린샷-2024-11-26-19.21.39.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 227799,
+      "exportedPath": "스크린샷-2024-11-26-19.21.39.png",
+      "dependencies": []
+    },
+    "스크린샷-2024-11-26-20.00.38.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 93826,
+      "exportedPath": "스크린샷-2024-11-26-20.00.38.png",
+      "dependencies": []
+    },
+    "pasted-image-20241126192245.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 130568,
+      "exportedPath": "pasted-image-20241126192245.png",
+      "dependencies": []
+    },
+    "스크린샷-2024-11-26-20.00.49.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 65917,
+      "exportedPath": "스크린샷-2024-11-26-20.00.49.png",
+      "dependencies": []
+    },
+    "스크린샷-2024-11-26-20.01.01.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 236396,
+      "exportedPath": "스크린샷-2024-11-26-20.01.01.png",
+      "dependencies": []
+    },
+    "스크린샷-2024-11-26-20.01.17.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1184299,
+      "exportedPath": "스크린샷-2024-11-26-20.01.17.png",
+      "dependencies": []
+    },
+    "pasted-image-20241126194108.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 112438,
+      "exportedPath": "pasted-image-20241126194108.png",
+      "dependencies": []
+    },
+    "pasted-image-20241106122023.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 720005,
+      "exportedPath": "pasted-image-20241106122023.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 35278,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 4841,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 131118,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 437,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/supported-plugins.css": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 3162,
+      "exportedPath": "lib/styles/supported-plugins.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1732849120204,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    }
+  }
+}

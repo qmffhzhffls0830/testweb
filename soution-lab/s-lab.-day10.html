@@ -1,0 +1,439 @@
+<!DOCTYPE html> <html><head>
+		<title>S lab. day10</title>
+		<base href="../">
+		<meta id="root-path" root-path="../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="brocolleen - S lab. day10">
+		<meta property="og:title" content="S lab. day10">
+		<meta property="og:description" content="brocolleen - S lab. day10">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="soution-lab/s-lab.-day10.html">
+		<meta property="og:image" content="undefined">
+		<meta property="og:site_name" content="brocolleen">
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-light show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="S lab. day10"><p dir="auto">S lab. day10</p></h1><div class="el-h3 heading-wrapper"><h3 data-heading="3인 구성의 팀 활동" dir="auto" class="heading" id="3인_구성의_팀_활동"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>3인 구성의 팀 활동</h3><div class="heading-children"><div class="el-hr"><hr></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**활동 목적**" dir="auto" class="heading" id="**활동_목적**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>활동 목적</strong></h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">3인 1조로 팀을 구성하여 자연스러운 대화를 통해 친밀감을 형성.</li>
+<li data-line="1" dir="auto">문제를 맞추는 과정에서 팀원들 간의 협력을 촉진하고 재미있는 분위기를 조성.</li>
+</ul></div><div class="el-hr"><hr></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**활동 진행 방법**" dir="auto" class="heading" id="**활동_진행_방법**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>활동 진행 방법</strong></h3><div class="heading-children"><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>팀 구성</strong><br>
+참가자들을 3명씩 팀으로 나눕니다.</p>
+<ul>
+<li data-line="3" dir="auto">각 팀은 <strong>1명의 발표자</strong>와 <strong>2명의 추리자</strong>로 역할을 나눕니다.</li>
+<li data-line="4" dir="auto">역할은 라운드마다 교체하여 모든 참가자가 한 번씩 발표자가 됩니다.</li>
+</ul>
+</li>
+<li data-line="5" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>질문 카드 뽑기</strong><br>
+발표자는 툴킷의 질문 카드 중 무작위로 1장을 뽑습니다.</p>
+<ul>
+<li data-line="8" dir="auto">질문 카드 예: "내가 가장 기억에 남는 경험은 000이야."<br>
+발표자는 해당 질문에 대해 답을 정하지만, 직접적으로 말하지 않고 <strong>힌트를 3개</strong>만 제공합니다.</li>
+<li data-line="10" dir="auto">예: 답 : 해외여행</li>
+<li data-line="11" dir="auto">"바다와 관련이 있어." / "여름에 일어난 일이야."</li>
+</ul>
+</li>
+<li data-line="12" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>추리자 논의</strong><br>
+나머지 2명의 추리자가 발표자가 준 힌트를 바탕으로 문제를 맞추기 위해 논의합니다.</p>
+<ul>
+<li data-line="15" dir="auto">발표자에게 <strong>질문 3개</strong>를 할 수 있습니다.</li>
+<li data-line="16" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>질문 예:
+<ul>
+<li data-line="17" dir="auto">"여행이랑 관련 있어?"</li>
+<li data-line="18" dir="auto">"혼자 간 거야, 아니면 누구랑 같이 갔어?"</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="19" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>정답 맞히기</strong></p>
+<ul>
+<li data-line="21" dir="auto">논의 후 추리자들은 정답을 맞힙니다.</li>
+<li data-line="22" dir="auto">정답을 맞히면 발표자가 상세한 이야기를 풀어놓으며 자신의 경험을 공유합니다.</li>
+<li data-line="23" dir="auto">정답을 못 맞히더라도 발표자는 자신의 답을 공개하며 활동을 마무리합니다.</li>
+</ul>
+</li>
+<li data-line="24" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>역할 교체</strong></p>
+<ul>
+<li data-line="26" dir="auto">라운드가 끝나면 발표자와 추리자 역할을 교체하여 다음 참가자가 진행합니다.</li>
+<li data-line="27" dir="auto">모든 팀원이 발표자로 참여하면 활동 종료.</li>
+</ul>
+</li>
+</ol></div><div class="el-hr"><hr></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**활동 규칙**" dir="auto" class="heading" id="**활동_규칙**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>활동 규칙</strong></h3><div class="heading-children"><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>발표자는 질문에 대한 힌트를 <strong>명확하지만 너무 직접적이지 않게</strong> 제공합니다.
+<ul>
+<li data-line="1" dir="auto">힌트를 통해 대화를 유도하는 것이 목적입니다.</li>
+</ul>
+</li>
+<li data-line="2" dir="auto">추리자들은 발표자가 제공한 힌트를 활용해 자유롭게 토론하며 질문을 할 수 있습니다.</li>
+<li data-line="3" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>제한 시간: <strong>1라운드당 3~5분</strong>
+<ul>
+<li data-line="4" dir="auto">힌트 제공: 1분</li>
+<li data-line="5" dir="auto">추리자 질문 및 논의: 2분</li>
+<li data-line="6" dir="auto">발표자의 정답 공개 및 이야기 나누기: 2분</li>
+</ul>
+</li>
+</ol></div><div class="el-hr"><hr></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**예시 진행**" dir="auto" class="heading" id="**예시_진행**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>예시 진행</strong></h3><div class="heading-children"><div class="el-h4 heading-wrapper"><h4 data-heading="**질문 카드:** &quot;내가 가장 기억에 남는 경험은 000이야.&quot;" dir="auto" class="heading" id="**질문_카드:**_&quot;내가_가장_기억에_남는_경험은_000이야.&quot;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>질문 카드:</strong> "내가 가장 기억에 남는 경험은 000이야."</h4><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>발표자 힌트:</strong>
+<ol>
+<li data-line="2" dir="auto">바다와 관련이 있어.</li>
+<li data-line="3" dir="auto">혼자서는 못 했던 일이야.</li>
+<li data-line="4" dir="auto">여름 방학 때였어.</li>
+</ol>
+</li>
+<li data-line="5" dir="auto"><strong>추리자 논의:</strong><br>
+A: "바다라고 했으니까 아마 서핑 같은 활동 아닐까?"<br>
+B: "혼자 못 했다고 했으니까, 서핑보단 배를 탄 거 아니야?"<br>
+A: "그럴 수도 있겠네. 근데 여름 방학이니까 여행 느낌도 드는데..."<br>
+(질문) "여행이랑 관련이 있어?"<br>
+발표자: "맞아. 여행이었어!"<br>
+B: "그럼 해외로 간 거야? 아니면 국내 여행?"<br>
+발표자: "국내 여행이었어."<br>
+A: "국내 여행, 바다, 혼자 못 했다... 캠핑 아니야?"<br>
+B: "오, 그럴 가능성도 있겠다!"<br>
+</li>
+<li data-line="16" dir="auto"><strong>정답:</strong><br>
+발표자: "맞아, 캠핑이었어! 가족이랑 간 첫 캠핑인데, 다 같이 바다 근처에서 텐트 치고 고기도 구워 먹었어. 그때 진짜 즐거웠어."<br>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto">추리자들의 질문 팁</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>열린 질문을 던지기:</strong> 단순히 "네"나 "아니오"로 끝나지 않도록 질문합니다.
+<ul>
+<li data-line="1" dir="auto">예: "이 활동을 하면서 가장 즐거웠던 순간이 뭐야?"</li>
+</ul>
+</li>
+<li data-line="2" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>세부적인 맥락을 파악하기:</strong> 발표자의 힌트를 기반으로 구체적으로 질문합니다.
+<ul>
+<li data-line="3" dir="auto">예: "네가 언급한 '처음 보는 글자들'이 어떤 느낌이었어?"</li>
+</ul>
+</li>
+<li data-line="4" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>발표자의 감정에 초점 맞추기:</strong> 발표자가 힌트에서 느낀 감정에 대해 물어봅니다.
+<ul>
+<li data-line="5" dir="auto">예: "계획을 오래 세웠다고 했는데, 준비하면서 긴장됐어 아니면 설렜어?"</li>
+</ul>
+</li>
+</ul></div><div class="el-p"><p dir="auto">질문카드 예시<br>
+"내가 제일 잘하는 것은 000이야."<br>
+"내가 가장 좋아하는 취미는 000이야."<br>
+"내가 가장 즐겁게 배우고 있는 건 000이야."<br>
+"내가 가장 소중하게 생각하는 것은 000이야."<br>
+"내가 꼭 해보고 싶은 건 000이야."</p></div><div class="el-hr"><hr></div></div></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**3인 구성의 팀 활동**" dir="auto" class="heading" id="**3인_구성의_팀_활동**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>3인 구성의 팀 활동</strong></h3><div class="heading-children"><div class="el-hr"><hr></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**활동 목적**" dir="auto" class="heading" id="**활동_목적**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>활동 목적</strong></h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">3인 1조로 팀을 구성하여 자연스러운 대화를 통해 <strong>친밀감을 형성</strong>.</li>
+<li data-line="1" dir="auto">문제를 맞추는 과정에서 팀원들 간의 <strong>협력과 소통 능력을 촉진</strong>.</li>
+<li data-line="2" dir="auto">팀원 간의 경험과 생각을 나누며 <strong>즐거운 분위기를 조성</strong>.</li>
+</ul></div><div class="el-hr"><hr></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**활동 진행 방법**" dir="auto" class="heading" id="**활동_진행_방법**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>활동 진행 방법</strong></h3><div class="heading-children"><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>팀 구성</strong></p>
+<ul>
+<li data-line="2" dir="auto">참가자들을 <strong>3명씩 팀</strong>으로 나눕니다.</li>
+<li data-line="3" dir="auto">각 팀은 <strong>1명의 발표자</strong>와 <strong>2명의 추리자</strong>로 역할을 나눕니다.</li>
+<li data-line="4" dir="auto">라운드가 끝날 때마다 역할을 교체하여 모든 참가자가 한 번씩 발표자가 되도록 합니다.</li>
+</ul>
+</li>
+<li data-line="5" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>질문 카드 선택</strong></p>
+<ul>
+<li data-line="7" dir="auto">발표자는 준비된 <strong>질문 카드 예시 중에서 자신이 원하는 주제를 선택</strong>합니다.<br>
+</li>
+<li data-line="9" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>선택한 질문을 바탕으로 자신의 경험이나 생각을 정리합니다.
+<h4 data-heading="**질문 카드 예시**" dir="auto" class="heading" id="**질문_카드_예시**"><strong>질문 카드 예시</strong></h4>
+<ul>
+<li data-line="13" dir="auto">"내가 제일 잘하는 것은 000이야."</li>
+<li data-line="14" dir="auto">"내가 가장 좋아하는 취미는 000이야."</li>
+<li data-line="15" dir="auto">"내가 가장 즐겁게 배우고 있는 건 000이야."</li>
+<li data-line="16" dir="auto">"내가 가장 소중하게 생각하는 것은 000이야."</li>
+<li data-line="17" dir="auto">"내가 꼭 해보고 싶은 건 000이야."</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="18" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>힌트 제공</strong></p>
+<ul>
+<li data-line="20" dir="auto">발표자는 선택한 질문에 대한 답을 정하고, 추리자들에게 답을 추리할 수 있도록 <strong>힌트 2개</strong>를 제공합니다.<br>
+</li>
+<li data-line="22" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>힌트는 명확하지만 <strong>너무 직접적이지 않도록</strong> 구성해야 합니다.
+<h4 data-heading="**힌트 예시**" dir="auto" class="heading" id="**힌트_예시**"><strong>힌트 예시</strong></h4>
+  질문: "내가 가장 기억에 남는 경험은 000이야."
+<ul>
+<li data-line="28" dir="auto">"바다와 관련이 있어."</li>
+<li data-line="29" dir="auto">"여름 방학 때였어."</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="30" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>추리자 논의</strong></p>
+<ul>
+<li data-line="32" dir="auto">추리자 2명은 발표자가 제공한 힌트를 바탕으로 답을 추리하기 위해 질문을 발표자에게 할 수 있습니다.<br>
+</li>
+<li data-line="34" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>질문은 열린 질문이나 구체적인 질문으로 힌트를 확장해야 합니다.
+<h4 data-heading="**질문 예시**" dir="auto" class="heading" id="**질문_예시**"><strong>질문 예시</strong></h4>
+<ul>
+<li data-line="38" dir="auto">"여행과 관련 있어?"</li>
+<li data-line="39" dir="auto">"혼자 갔던 거야, 아니면 가족이랑 갔어?"</li>
+<li data-line="40" dir="auto">"바다라면 수영이나 보트 타기 같은 활동을 한 거야?"</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="41" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>정답 맞히기</strong></p>
+<ul>
+<li data-line="43" dir="auto">추리자들은 논의 후 정답을 발표합니다.</li>
+<li data-line="44" dir="auto">정답을 맞히면 발표자가 자신의 경험을 상세히 공유하며 이야기의 깊이를 더합니다.</li>
+<li data-line="45" dir="auto">정답을 못 맞혔더라도 발표자는 자신의 답을 공개하며 경험을 나눕니다.</li>
+</ul>
+</li>
+<li data-line="46" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>역할 교체</strong></p>
+<ul>
+<li data-line="48" dir="auto">발표자와 추리자 역할을 교체하며, 모든 참가자가 발표자로 참여하면 활동이 종료됩니다.</li>
+</ul>
+</li>
+</ol></div><div class="el-hr"><hr></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**활동 규칙**" dir="auto" class="heading" id="**활동_규칙**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>활동 규칙</strong></h3><div class="heading-children"><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>2개의 <strong>힌트는 명확하지만 간접적으로 제공</strong>
+<ul>
+<li data-line="1" dir="auto">힌트를 통해 대화를 유도하며 지나치게 직접적이지 않게 구성합니다.</li>
+</ul>
+</li>
+<li data-line="2" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>추리자는 열린 질문을 활용</strong>
+<ul>
+<li data-line="3" dir="auto">단답형 "예/아니오"로 끝나지 않는 질문을 통해 힌트를 확장합니다.</li>
+</ul>
+</li>
+<li data-line="4" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>제한 시간 준수</strong>
+<ul>
+<li data-line="5" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>1라운드당 <strong>3~5분</strong>
+<ul>
+<li data-line="6" dir="auto">힌트 제공: 1분</li>
+<li data-line="7" dir="auto">질문 및 논의: 2분</li>
+<li data-line="8" dir="auto">정답 공개 및 경험 나누기: 2분</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol></div><div class="el-hr"><hr></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**예시 진행**" dir="auto" class="heading" id="**예시_진행**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>예시 진행</strong></h3><div class="heading-children"><div class="el-h4 heading-wrapper"><h4 data-heading="**질문 카드:** &quot;내가 가장 기억에 남는 경험은 000이야.&quot;" dir="auto" class="heading" id="**질문_카드:**_&quot;내가_가장_기억에_남는_경험은_000이야.&quot;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>질문 카드:</strong> "내가 가장 기억에 남는 경험은 000이야."</h4><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>발표자의 힌트:</strong>
+<ol>
+<li data-line="2" dir="auto">"바다와 관련이 있어."</li>
+<li data-line="3" dir="auto">"여름 방학 때였어."</li>
+</ol>
+</li>
+<li data-line="4" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>추리자 논의:</strong><br>
+A: "바다라니까 서핑 같은 거 아닐까?"<br>
+B: "여름 방학이라고 했으니 가족 여행일 수도 있겠네."<br>
+A: "그럼 여행일 가능성이 높은데?"<br>
+(질문) "여행이랑 관련 있어?"<br>
+발표자: "맞아. 여행이야!"<br>
+B: "그럼 해외 여행이야, 국내 여행이야?"<br>
+발표자: "국내 여행이었어."<br>
+A: "바다, 국내 여행, 여름... 캠핑 아니야?"<br>
+B: "오, 캠핑이 가능성 있겠다."
+<ul>
+<li data-line="14" dir="auto"><strong>정답:</strong><br>
+발표자: "맞아! 캠핑이야. 가족들이랑 간 첫 캠핑인데, 바다 근처에서 텐트를 치고 고기도 구워 먹었어. 정말 기억에 남는 경험이었어."</li>
+</ul>
+</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto">ㅛ</p></div></div></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**추리자의 질문 팁**" dir="auto" class="heading" id="**추리자의_질문_팁**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>추리자의 질문 팁</strong></h3><div class="heading-children"><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>열린 질문을 던지기</strong></p>
+<ul>
+<li data-line="2" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>단순히 "네/아니오"로 끝나는 질문이 아닌 대화를 확장할 수 있는 질문 활용.
+<ul>
+<li data-line="3" dir="auto">예: "그 경험을 하면서 가장 즐거웠던 순간이 뭐야?"</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="4" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>감정에 초점 맞추기</strong></p>
+<ul>
+<li data-line="6" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>발표자가 느낀 감정이나 특별한 순간에 대해 질문.
+<ul>
+<li data-line="7" dir="auto">예: "그 경험을 했을 때 가장 설레거나 인상 깊었던 순간은 뭐야?"</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="8" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>세부적인 맥락 파악하기</strong></p>
+<ul>
+<li data-line="10" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>힌트의 단서를 활용해 더 구체적으로 질문.
+<ul>
+<li data-line="11" dir="auto">예: "혼자 못 했다고 했으니 누구랑 함께 했던 거야?"</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto">플레이 테스팅 설명</p></div><div class="el-p"><p dir="auto">안녕하세요, 여러분! 오늘의 활동은 3인 1조로 팀을 구성하여 서로 협력하며 재미있는 문제를 맞추는 게임입니다. 팀워크와 소통을 강화하고, 친밀감을 형성할 수 있는 기회를 제공합니다. 간단하게 진행 방법을 설명드리겠습니다.</p></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto">팀 구성</li>
+</ol></div><div class="el-p"><p dir="auto">여러분은 각 팀에서 1명의 발표자와 2명의 추리자로 역할을 맡게 됩니다.</p></div><div class="el-p"><p dir="auto">각 라운드가 끝날 때마다 발표자와 추리자 역할을 교체하므로, 모든 참가자가 발표자로 참여할 수 있습니다.</p></div><div class="el-ol"><ol start="2">
+<li data-line="0" dir="auto">질문 카드 선택</li>
+</ol></div><div class="el-p"><p dir="auto">발표자는 질문 카드 항목 중에서 자신이 원하는 주제를 직접 선택합니다. 예시 질문 카드에는 “내가 제일 잘하는 것은 000이야”와 같은 질문들이 있습니다.</p></div><div class="el-p"><p dir="auto">질문 카드 항목:</p></div><div class="el-p"><p dir="auto">"내가 제일 잘하는 것은 000이야."</p></div><div class="el-p"><p dir="auto">"내가 가장 좋아하는 취미는 000이야."</p></div><div class="el-p"><p dir="auto">"내가 가장 즐겁게 배우고 있는 건 000이야."</p></div><div class="el-p"><p dir="auto">"내가 가장 소중하게 생각하는 것은 000이야."</p></div><div class="el-p"><p dir="auto">"내가 꼭 해보고 싶은 건 000이야."</p></div><div class="el-ol"><ol start="3">
+<li data-line="0" dir="auto">힌트 제공</li>
+</ol></div><div class="el-p"><p dir="auto">발표자는 자신이 선택한 질문에 대해 답을 정한 후, 그 답을 추리할 수 있도록 힌트 2개를 제공합니다. 힌트는 명확하지만 너무 직접적이지 않게 제공해 주세요.</p></div><div class="el-p"><p dir="auto">예시:</p></div><div class="el-p"><p dir="auto">질문: "내가 가장 기억에 남는 경험은 000이야."</p></div><div class="el-p"><p dir="auto">힌트:</p></div><div class="el-p"><p dir="auto">"바다와 관련이 있어."</p></div><div class="el-p"><p dir="auto">"여름 방학 때였어."</p></div><div class="el-ol"><ol start="4">
+<li data-line="0" dir="auto">추리자 질문 및 논의</li>
+</ol></div><div class="el-p"><p dir="auto">나머지 2명의 추리자는 발표자가 제공한 힌트를 바탕으로 답을 추리기 위해 질문을 할 수 있습니다. 추리자들이 자유롭게 논의하며 질문을 던질 수 있습니다.</p></div><div class="el-p"><p dir="auto">예시 질문:</p></div><div class="el-p"><p dir="auto">"여행과 관련 있어?"</p></div><div class="el-p"><p dir="auto">"혼자 갔던 거야, 아니면 가족이랑 갔어?"</p></div><div class="el-p"><p dir="auto">"바다라면 수영이나 보트 타기 같은 활동을 했어?"</p></div><div class="el-ol"><ol start="5">
+<li data-line="0" dir="auto">정답 맞히기</li>
+</ol></div><div class="el-p"><p dir="auto">추리자들은 논의 후 정답을 맞히려고 시도합니다. 정답을 맞히면 발표자가 자신의 경험을 공유하며 활동을 마무리합니다.</p></div><div class="el-p"><p dir="auto">만약 추리자들이 정답을 못 맞혔다면, 발표자는 정답을 공개하고 자신의 경험을 설명합니다.</p></div><div class="el-ol"><ol start="6">
+<li data-line="0" dir="auto">역할 교체</li>
+</ol></div><div class="el-p"><p dir="auto">각 라운드가 끝나면 발표자와 추리자 역할을 교체하고 다음 라운드를 시작합니다. 모든 참가자가 발표자로 참여할 때까지 진행이 됩니다.</p></div><div class="el-p"><p dir="auto">활동의 주요 규칙</p></div><div class="el-p"><p dir="auto">발표자는 힌트를 명확하지만 너무 직접적이지 않게 제공해야 합니다.</p></div><div class="el-p"><p dir="auto">추리자는 열린 질문을 활용하여 대화를 이끌어 나가야 정답을 맞출 때 도움이 됩니다!</p></div><div class="el-p"><p dir="auto">한 라운드의 제한 시간은 3~5분입니다.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**플레이 테스트 설명**" dir="auto" class="heading" id="**플레이_테스트_설명**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>플레이 테스트 설명</strong></h3><div class="heading-children"><div class="el-p"><p dir="auto">안녕하세요, 여러분! 오늘은 <strong>3인 1조로 팀을 구성</strong>하여 협력과 소통을 통해 재미있게 문제를 풀어보는 활동을 진행하겠습니다. 이번 활동은 서로 더 잘 알게 되는 기회이자 팀워크를 강화하는 시간이 될 거예요. 간단한 진행 방법과 규칙을 소개하겠습니다.</p></div><div class="el-hr"><hr></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**진행 방법**" dir="auto" class="heading" id="**진행_방법**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>진행 방법</strong></h3><div class="heading-children"><div class="el-h4 heading-wrapper"><h4 data-heading="1. **팀 구성**" dir="auto" class="heading" id="1._**팀_구성**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>1. <strong>팀 구성</strong></h4><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">각 팀은 <strong>3명</strong>으로 구성됩니다.</li>
+<li data-line="1" dir="auto"><strong>1명은 발표자</strong>, 나머지 <strong>2명은 추리자</strong> 역할을 맡습니다.</li>
+<li data-line="2" dir="auto"><strong>각 라운드마다 역할을 교체</strong>하여, 모든 참가자가 발표자로 참여할 수 있습니다.</li>
+</ul></div><div class="el-hr"><hr></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="2. **질문 카드 선택**" dir="auto" class="heading" id="2._**질문_카드_선택**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>2. <strong>질문 카드 선택</strong></h4><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>발표자</strong>는 준비된 질문 카드 중에서 <strong>하나를 선택</strong>합니다.</li>
+<li data-line="1" dir="auto">선택한 질문에 대해 자신의 경험이나 생각을 정리한 후 답을 정합니다.</li>
+</ul></div><div class="el-p"><p dir="auto"><strong>질문 카드 예시</strong> <em>(친한 친구용으로 수정됨)</em>:</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto">"내가 가장 황당했던 경험은 000이야."</li>
+<li data-line="1" dir="auto">"내가 어릴 때 가장 이상했던 별명은 000이야."</li>
+<li data-line="2" dir="auto">"내가 가장 뿌듯했던 순간은 000이야."</li>
+<li data-line="3" dir="auto">"내가 최근에 배꼽 잡고 웃었던 일은 000이야."</li>
+<li data-line="4" dir="auto">"내가 지금까지 갔던 곳 중 가장 인상 깊었던 장소는 000이야."</li>
+<li data-line="5" dir="auto">"내가 가장 용기를 냈던 순간은 000이야."</li>
+<li data-line="6" dir="auto">"내가 최근에 가장 만족했던 하루는 000이야."</li>
+<li data-line="7" dir="auto">"내가 가장 의외라고 들었던 행동이나 취미는 000이야."</li>
+<li data-line="8" dir="auto">"내가 한 번도 말하지 않았던 어릴 적 꿈은 000이야."</li>
+<li data-line="9" dir="auto">"내가 가장 기억에 남는 여행은 000이야."</li>
+</ul></div><div class="el-hr"><hr></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="3. **힌트 제공**" dir="auto" class="heading" id="3._**힌트_제공**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>3. <strong>힌트 제공</strong></h4><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">발표자는 질문의 답을 <strong>추리자가 맞힐 수 있도록 힌트 2개를 제공합니다.</strong></li>
+<li data-line="1" dir="auto">이기는 것은 아니지만 힌트는 명확하지만 <strong>너무 직접적이지 않게</strong> 만들어주세요.</li>
+</ul></div><div class="el-p"><p dir="auto"><strong>힌트 예시</strong>:<br>
+<strong>질문</strong>: "내가 가장 황당했던 경험은 000이야."</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto">힌트 1: "그날 나는 늦잠을 잤어."</li>
+<li data-line="1" dir="auto">힌트 2: "버스에서 일어난 일이야."</li>
+</ul></div><div class="el-hr"><hr></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="4. **추리자 질문 및 논의**" dir="auto" class="heading" id="4._**추리자_질문_및_논의**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>4. <strong>추리자 질문 및 논의</strong></h4><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">최대 3개**까지 할 수 있습니다.</li>
+<li data-line="1" dir="auto">열린 질문으로 단서를 확장하며 논의하세요.</li>
+</ul></div><div class="el-p"><p dir="auto"><strong>질문 예시</strong>:</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto">"그날 어디로 가는 중이었어?"</li>
+<li data-line="1" dir="auto">"혼자였어, 아니면 친구랑 있었어?"</li>
+<li data-line="2" dir="auto">"황당했던 이유가 다른 사람과의 에피소드 때문이야?"</li>
+</ul></div><div class="el-hr"><hr></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="5. **정답 맞히기**" dir="auto" class="heading" id="5._**정답_맞히기**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>5. <strong>정답 맞히기</strong></h4><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">추리자들은 논의 후 정답을 추측해 발표합니다.</li>
+<li data-line="1" dir="auto"><strong>정답을 맞히면</strong>, 발표자가 자신의 경험을 상세히 설명하며 이야기를 공유합니다.</li>
+<li data-line="2" dir="auto"><strong>정답을 못 맞혔어도</strong>, 발표자가 정답을 공개하며 자신의 경험을 나눕니다.<br>
+→ 이 과정에서 활동의 가장 큰 재미와 배움이 생깁니다!</li>
+</ul></div><div class="el-hr"><hr></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="6. **역할 교체**" dir="auto" class="heading" id="6._**역할_교체**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>6. <strong>역할 교체</strong></h4><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto">한 라운드가 끝나면 <strong>발표자와 추리자 역할을 교체</strong>합니다.</li>
+<li data-line="1" dir="auto">모든 참가자가 발표자로 참여하면 활동이 종료됩니다.</li>
+</ul></div><div class="el-hr"><hr></div></div></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**활동 규칙**" dir="auto" class="heading" id="**활동_규칙**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>활동 규칙</strong></h3><div class="heading-children"><div class="el-ol"><ol>
+<li data-line="0" dir="auto">
+<p><strong>힌트는 명확하지만 간접적으로 제공</strong><br>
+→ 발표자는 힌트를 통해 대화를 유도하고 지나치게 직접적인 답은 피합니다.</p>
+</li>
+<li data-line="3" dir="auto">
+<p><strong>추리자는 열린 질문을 활용</strong><br>
+→ 단답형 "예/아니오"로 끝나지 않게 대화를 확장하세요.</p>
+</li>
+<li data-line="6" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>제한 시간 준수</strong><br>
+→ 1라운드는 <strong>3~5분</strong> 내에 끝냅니다:</p>
+<ul>
+<li data-line="9" dir="auto">힌트 제공: 1분</li>
+<li data-line="10" dir="auto">질문 및 논의: 2분</li>
+<li data-line="11" dir="auto">정답 공개 및 경험 나누기: 2분</li>
+</ul>
+</li>
+</ol></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**게임 준비**" dir="auto" class="heading" id="**게임_준비**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>게임 준비</strong></h3><div class="heading-children"><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>카드 준비:</strong>
+<ul>
+<li data-line="1" dir="auto">모든 플레이어는 동일한 카드 세트를 가지고 있습니다.</li>
+<li data-line="2" dir="auto">각 카드에는 다양한 특징이 적혀 있습니다. 예: "고양이를 좋아한다", "여행을 좋아한다", "빨간색을 좋아한다" 등.</li>
+</ul>
+</li>
+<li data-line="3" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>카드 분배:</strong>
+<ul>
+<li data-line="4" dir="auto">모든 카드를 섞은 후, 각 플레이어에게 카드를 <strong>5장씩</strong> 나눠줍니다.</li>
+<li data-line="5" dir="auto">카드는 <strong>뒤집어 놓고</strong> 시작합니다.</li>
+</ul>
+</li>
+</ol></div><div class="el-hr"><hr></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**게임 진행**" dir="auto" class="heading" id="**게임_진행**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>게임 진행</strong></h3><div class="heading-children"><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>카드 내기:</strong></p>
+<ul>
+<li data-line="2" dir="auto">각 플레이어는 <strong>자신의 카드 더미에서 한 장씩 카드를 뽑고</strong> 테이블에 놓습니다.</li>
+</ul>
+</li>
+<li data-line="3" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>중복 카드 확인:</strong></p>
+<ul>
+<li data-line="5" dir="auto">테이블에 놓인 카드 중 <strong>자신의 특징과 일치하는 카드</strong>가 중복되면, <strong>가장 빠르게 종을 쳐서</strong> 해당 카드를 가져갈 수 있습니다.</li>
+</ul>
+</li>
+<li data-line="6" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>특징 설명:</strong></p>
+<ul>
+<li data-line="8" dir="auto">카드를 가져간 후, <strong>자신의 특징에 대해 간단히 설명</strong>합니다. 예를 들어, "저는 '여행을 좋아한다'는 특징을 가진 사람입니다."라고 말합니다.</li>
+</ul>
+</li>
+<li data-line="9" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>
+<p><strong>게임 반복:</strong></p>
+<ul>
+<li data-line="11" dir="auto">각 플레이어는 순서대로 카드를 내고 중복된 카드를 찾으며, <strong>자신의 특징과 일치하는 카드를 가져갑니다.</strong></li>
+<li data-line="12" dir="auto">이 과정을 <strong>모든 카드가 소진될 때까지</strong> 반복합니다.</li>
+</ul>
+</li>
+</ol></div><div class="el-hr"><hr></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**게임 종료 및 승리**" dir="auto" class="heading" id="**게임_종료_및_승리**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>게임 종료 및 승리</strong></h3><div class="heading-children"><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>게임 종료:</strong>
+<ul>
+<li data-line="1" dir="auto">모든 카드가 테이블에 놓이고, 각 플레이어가 카드를 가져간 후 게임이 종료됩니다.</li>
+</ul>
+</li>
+<li data-line="2" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>승리 조건:</strong>
+<ul>
+<li data-line="3" dir="auto"><strong>가장 많은 카드를 가져간 플레이어</strong>가 승리합니다.</li>
+</ul>
+</li>
+</ol></div><div class="el-hr"><hr></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**게임의 특징**" dir="auto" class="heading" id="**게임의_특징**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>게임의 특징</strong></h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>자기소개와 특징 공유:</strong>
+<ul>
+<li data-line="2" dir="auto">각 플레이어는 자신과 일치하는 카드가 나올 때마다 <strong>자신의 특징을 공유</strong>하고, 상대방은 이를 통해 <strong>상대방의 특징을 알 수 있습니다.</strong></li>
+</ul>
+</li>
+<li data-line="3" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>공통점 찾기:</strong>
+<ul>
+<li data-line="5" dir="auto">중복된 카드를 확인하면서 <strong>자신과 공통점이 많은 상대와 소통</strong>할 수 있는 기회를 제공합니다.</li>
+</ul>
+</li>
+<li data-line="6" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>게임을 통한 대화:</strong>
+<ul>
+<li data-line="8" dir="auto">각 카드를 놓고 설명하는 과정에서 자연스럽게 <strong>서로에 대해 더 알게 되고, 대화가 이어지</strong>게 됩니다.</li>
+</ul>
+</li>
+</ul></div><div class="el-hr"><hr></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="**게임의 장점**" dir="auto" class="heading" id="**게임의_장점**"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>게임의 장점</strong></h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>친밀한 소통:</strong>
+<ul>
+<li data-line="2" dir="auto">게임을 통해 서로의 특징을 알아가며, <strong>친밀한 관계를 형성</strong>할 수 있습니다.</li>
+</ul>
+</li>
+<li data-line="3" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>재미있고 자연스러운 자기소개:</strong>
+<ul>
+<li data-line="5" dir="auto">특징을 알리기 위해 의도적으로 대화하는 것이 아니라, <strong>게임을 하며 자연스럽게 자기소개</strong>가 이루어집니다.</li>
+</ul>
+</li>
+<li data-line="6" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>빠르고 직관적인 진행:</strong>
+<ul>
+<li data-line="8" dir="auto">규칙이 간단하고 직관적이어서 <strong>빠르게 진행할 수</strong> 있어 지루하지 않습니다.</li>
+</ul>
+</li>
+</ul></div><div class="el-p"><p dir="auto">특징 카드</p></div><div class="mod-footer mod-ui"></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="soution-lab/s-lab.-day10.html#S lab. day10"><div class="tree-item-contents heading-link" heading-name="S lab. day10"><span class="tree-item-title">S lab. day10</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#3인_구성의_팀_활동"><div class="tree-item-contents heading-link" heading-name="3인 구성의 팀 활동"><span class="tree-item-title">3인 구성의 팀 활동</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**활동_목적**"><div class="tree-item-contents heading-link" heading-name="**활동 목적**"><span class="tree-item-title"><strong>활동 목적</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**활동_진행_방법**"><div class="tree-item-contents heading-link" heading-name="**활동 진행 방법**"><span class="tree-item-title"><strong>활동 진행 방법</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**활동_규칙**"><div class="tree-item-contents heading-link" heading-name="**활동 규칙**"><span class="tree-item-title"><strong>활동 규칙</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**예시_진행**"><div class="tree-item-contents heading-link" heading-name="**예시 진행**"><span class="tree-item-title"><strong>예시 진행</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**질문_카드:**_&quot;내가_가장_기억에_남는_경험은_000이야.&quot;"><div class="tree-item-contents heading-link" heading-name="**질문 카드:** &quot;내가 가장 기억에 남는 경험은 000이야.&quot;"><span class="tree-item-title"><strong>질문 카드:</strong> "내가 가장 기억에 남는 경험은 000이야."</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**3인_구성의_팀_활동**"><div class="tree-item-contents heading-link" heading-name="**3인 구성의 팀 활동**"><span class="tree-item-title"><strong>3인 구성의 팀 활동</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**활동_목적**"><div class="tree-item-contents heading-link" heading-name="**활동 목적**"><span class="tree-item-title"><strong>활동 목적</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**활동_진행_방법**"><div class="tree-item-contents heading-link" heading-name="**활동 진행 방법**"><span class="tree-item-title"><strong>활동 진행 방법</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**질문_카드_예시**"><div class="tree-item-contents heading-link" heading-name="**질문 카드 예시**"><span class="tree-item-title"><strong>질문 카드 예시</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**힌트_예시**"><div class="tree-item-contents heading-link" heading-name="**힌트 예시**"><span class="tree-item-title"><strong>힌트 예시</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**질문_예시**"><div class="tree-item-contents heading-link" heading-name="**질문 예시**"><span class="tree-item-title"><strong>질문 예시</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**활동_규칙**"><div class="tree-item-contents heading-link" heading-name="**활동 규칙**"><span class="tree-item-title"><strong>활동 규칙</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**예시_진행**"><div class="tree-item-contents heading-link" heading-name="**예시 진행**"><span class="tree-item-title"><strong>예시 진행</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**질문_카드:**_&quot;내가_가장_기억에_남는_경험은_000이야.&quot;"><div class="tree-item-contents heading-link" heading-name="**질문 카드:** &quot;내가 가장 기억에 남는 경험은 000이야.&quot;"><span class="tree-item-title"><strong>질문 카드:</strong> "내가 가장 기억에 남는 경험은 000이야."</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**추리자의_질문_팁**"><div class="tree-item-contents heading-link" heading-name="**추리자의 질문 팁**"><span class="tree-item-title"><strong>추리자의 질문 팁</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**플레이_테스트_설명**"><div class="tree-item-contents heading-link" heading-name="**플레이 테스트 설명**"><span class="tree-item-title"><strong>플레이 테스트 설명</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**진행_방법**"><div class="tree-item-contents heading-link" heading-name="**진행 방법**"><span class="tree-item-title"><strong>진행 방법</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="soution-lab/s-lab.-day10.html#1._**팀_구성**"><div class="tree-item-contents heading-link" heading-name="1. **팀 구성**"><span class="tree-item-title">1. 
+팀 구성
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="soution-lab/s-lab.-day10.html#2._**질문_카드_선택**"><div class="tree-item-contents heading-link" heading-name="2. **질문 카드 선택**"><span class="tree-item-title">2. 
+질문 카드 선택
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="soution-lab/s-lab.-day10.html#3._**힌트_제공**"><div class="tree-item-contents heading-link" heading-name="3. **힌트 제공**"><span class="tree-item-title">3. 
+힌트 제공
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="soution-lab/s-lab.-day10.html#4._**추리자_질문_및_논의**"><div class="tree-item-contents heading-link" heading-name="4. **추리자 질문 및 논의**"><span class="tree-item-title">4. 
+추리자 질문 및 논의
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="soution-lab/s-lab.-day10.html#5._**정답_맞히기**"><div class="tree-item-contents heading-link" heading-name="5. **정답 맞히기**"><span class="tree-item-title">5. 
+정답 맞히기
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="soution-lab/s-lab.-day10.html#6._**역할_교체**"><div class="tree-item-contents heading-link" heading-name="6. **역할 교체**"><span class="tree-item-title">6. 
+역할 교체
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**활동_규칙**"><div class="tree-item-contents heading-link" heading-name="**활동 규칙**"><span class="tree-item-title"><strong>활동 규칙</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**게임_준비**"><div class="tree-item-contents heading-link" heading-name="**게임 준비**"><span class="tree-item-title"><strong>게임 준비</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**게임_진행**"><div class="tree-item-contents heading-link" heading-name="**게임 진행**"><span class="tree-item-title"><strong>게임 진행</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**게임_종료_및_승리**"><div class="tree-item-contents heading-link" heading-name="**게임 종료 및 승리**"><span class="tree-item-title"><strong>게임 종료 및 승리</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**게임의_특징**"><div class="tree-item-contents heading-link" heading-name="**게임의 특징**"><span class="tree-item-title"><strong>게임의 특징</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="soution-lab/s-lab.-day10.html#**게임의_장점**"><div class="tree-item-contents heading-link" heading-name="**게임의 장점**"><span class="tree-item-title"><strong>게임의 장점</strong></span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
